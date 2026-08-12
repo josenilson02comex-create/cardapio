@@ -1,0 +1,181 @@
+{
+  "loja": {
+    "nome": "Zero Hora",
+    "sub": "PNZ",
+    "whatsapp": "5587981500788",
+    "instagram": "zerohora.pnz",
+    "aberto": true,
+    "aviso": "",
+    "avisoFechado": "Estamos fechados no momento. Volte no nosso horário de funcionamento!",
+    "taxaEntrega": 0,
+    "pedirEndereco": true,
+    "pixChave": "",
+    "fotoCapa": "",
+    "logo": "",
+    "fotoFundo": "",
+    "alturaCapa": "media",
+    "cor": "#e01e28"
+  },
+  "tamanhos": [
+    {
+      "id": "M",
+      "nome": "Marmita M",
+      "desc": "Porção individual",
+      "precos": {
+        "1": 18,
+        "2": 21
+      },
+      "ativo": true
+    },
+    {
+      "id": "G",
+      "nome": "Marmita G",
+      "desc": "Porção grande",
+      "precos": {
+        "1": 22,
+        "2": 26
+      },
+      "ativo": true
+    }
+  ],
+  "categorias": [
+    {
+      "id": "bases",
+      "titulo": "Pratos base",
+      "min": 1,
+      "max": 1,
+      "itens": [
+        {
+          "n": "Feijão tropeiro",
+          "on": true,
+          "extra": 0,
+          "tipo": "principal"
+        },
+        {
+          "n": "Baião cremoso",
+          "on": true,
+          "extra": 0,
+          "tipo": "principal"
+        },
+        {
+          "n": "Arroz branco",
+          "on": true,
+          "extra": 0,
+          "tipo": "adicional",
+          "com": [
+            "Feijão tropeiro"
+          ]
+        },
+        {
+          "n": "Espaguete no molho artesanal",
+          "on": true,
+          "extra": 0,
+          "tipo": "adicional",
+          "com": [
+            "Feijão tropeiro",
+            "Baião cremoso"
+          ]
+        }
+      ],
+      "combinar": true
+    },
+    {
+      "id": "carnes",
+      "titulo": "Carnes",
+      "min": 1,
+      "max": 1,
+      "dinamico": true,
+      "itens": [
+        {
+          "n": "Carne de panela",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Fricassê de frango",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Costela bovina assada",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Frango grelhado",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Carne moída refogada",
+          "on": true,
+          "extra": 0
+        }
+      ]
+    },
+    {
+      "id": "complementos",
+      "titulo": "Complementos",
+      "min": 0,
+      "max": 3,
+      "itens": [
+        {
+          "n": "Salada de maionese",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Purê de batata",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Farofa",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Salada",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Batata frita",
+          "on": true,
+          "extra": 0
+        }
+      ]
+    }
+  ],
+  "bebidas": [
+    {
+      "n": "Coca-Cola 350ml",
+      "preco": 6,
+      "on": true
+    },
+    {
+      "n": "Guaraná Antártica 350ml",
+      "preco": 6,
+      "on": true
+    },
+    {
+      "n": "Fanta 350ml",
+      "preco": 6,
+      "on": true
+    },
+    {
+      "n": "Cajuína São Geraldo 350ml",
+      "preco": 6,
+      "on": true
+    },
+    {
+      "n": "Coca-Cola 1L",
+      "preco": 11,
+      "on": true
+    }
+  ],
+  "admin": {
+    "senhaHash": ""
+  },
+  "atualizadoEm": ""
+}
