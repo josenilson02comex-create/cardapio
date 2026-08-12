@@ -856,12 +856,19 @@ function addMarmita(){
     let vals = s.slice();
     if(cat.combinar){
       // principal primeiro, acompanhamentos na ordem do cardápio
-      const p = principalDe(cat, vals);
+      const pr = principalDe(cat, vals);
       const idx = n => (cat.itens||[]).findIndex(i=>i.n===n);
-      vals = vals.filter(x=>x!==p).sort((a,b)=>idx(a)-idx(b));
-      if(p) vals.unshift(p);
+      const ads = vals.filter(x=>x!==pr).sort((a,b)=>idx(a)-idx(b));
+      vals = pr ? [pr].concat(ads) : ads;
+      item.sel.push({
+        titulo: cat.titulo, valores: vals, junta: true,
+        p: pr, a: ads,
+        rp: cat.rotuloPrincipal || "Base principal",
+        ra: cat.rotuloAdicional || "Acompanha"
+      });
+      return;
     }
-    item.sel.push({titulo:cat.titulo, valores:vals, junta:!!cat.combinar});
+    item.sel.push({titulo:cat.titulo, valores:vals});
   });
   CART.push(item);
   BUILD = { tam:null, nCarnes:1, sel:{} };
@@ -884,7 +891,14 @@ function renderCart(){
     CART.forEach((c,i)=>{
       h += '<div class="cart-item"><div class="top"><div class="tt">' + c.qtd + 'x ' + esc(c.tam) + '</div>' +
            '<div style="color:var(--gold);font-weight:900">' + brl(c.preco*c.qtd) + '</div></div><ul>';
-      c.sel.forEach(s=>{ h += '<li><b>' + esc(s.titulo) + ':</b> ' + esc(s.valores.join(s.junta ? " + " : ", ")) + '</li>'; });
+      c.sel.forEach(s=>{
+        if(s.p){
+          h += '<li><b>' + esc(s.rp) + ':</b> ' + esc(s.p) + '</li>';
+          if(s.a && s.a.length) h += '<li><b>' + esc(s.ra) + ':</b> ' + esc(s.a.join(", ")) + '</li>';
+        } else {
+          h += '<li><b>' + esc(s.titulo) + ':</b> ' + esc(s.valores.join(", ")) + '</li>';
+        }
+      });
       h += '</ul><div class="act"><button class="lnk" onclick="delItem(' + i + ')">🗑 Remover</button>' +
            '<div class="stp"><button onclick="qtd(' + i + ',-1)">−</button><span>' + c.qtd + '</span>' +
            '<button class="plus" onclick="qtd(' + i + ',1)">+</button></div></div></div>';
@@ -996,7 +1010,14 @@ function enviar(){
     L.push("*🍽️ MARMITAS*");
     CART.forEach((c,i)=>{
       L.push("*" + (i+1) + ") " + c.qtd + "x " + c.tam.toUpperCase() + "* — " + brl(c.preco*c.qtd));
-      c.sel.forEach(s=>{ L.push("   • " + s.titulo + ": " + s.valores.join(s.junta ? " + " : ", ")); });
+      c.sel.forEach(s=>{
+        if(s.p){
+          L.push("   • " + s.rp + ": " + s.p);
+          if(s.a && s.a.length) L.push("   • " + s.ra + ": " + s.a.join(", "));
+        } else {
+          L.push("   • " + s.titulo + ": " + s.valores.join(", "));
+        }
+      });
     });
     L.push("");
   }
@@ -1007,6 +1028,19 @@ function enviar(){
       const b = (M.bebidas||[]).find(x=>x.n===k) || {preco:0};
       L.push("   • " + DRINKS[k] + "x " + k + " — " + brl((b.preco||0)*DRINKS[k]));
     });
+    L.push("");
+  }
+  // ---- resumo de produção ----
+  if(CART.length){
+    const cont = {};
+    let totMar = 0;
+    CART.forEach(c=>{ cont[c.tam] = (cont[c.tam]||0) + c.qtd; totMar += c.qtd; });
+    L.push("*👨‍🍳 RESUMO — CONFERIR ANTES DE FECHAR*");
+    Object.keys(cont).forEach(k=>{ L.push("   ▸ " + cont[k] + "x " + k); });
+    let totBeb = 0;
+    Object.keys(DRINKS).forEach(k=>{ totBeb += DRINKS[k]; });
+    if(totBeb) L.push("   ▸ " + totBeb + (totBeb===1 ? " bebida" : " bebidas"));
+    L.push("   = " + totMar + (totMar===1 ? " marmita no total" : " marmitas no total"));
     L.push("");
   }
   if(obs){ L.push("*📝 OBSERVAÇÕES*"); L.push(obs); L.push(""); }
@@ -1151,7 +1185,10 @@ function viewItens(){
            : '<div class="row"><div class="nm" style="font-size:14px;color:var(--mut)">Regra de combinação</div>' +
              '<div class="sw' + (cat.combinar?' on':'') + '" onclick="tgCombinar(' + ci + ')"></div></div>' +
              (cat.combinar
-               ? '<p class="hint" style="margin:8px 0 4px">O cliente escolhe <b>1 principal</b> e depois só os acompanhamentos liberados para ela.</p>'
+               ? '<p class="hint" style="margin:8px 0 4px">O cliente escolhe <b>1 principal</b> e depois só os acompanhamentos liberados para ela.</p>' +
+                 '<div class="row"><div class="nm" style="font-size:13px;color:var(--mut)">Como chamar no pedido</div></div>' +
+                 '<div class="row"><input class="nin" value="' + esc(cat.rotuloPrincipal||"Base principal") + '" placeholder="Base principal" oninput="M.categorias[' + ci + '].rotuloPrincipal=this.value"></div>' +
+                 '<div class="row"><input class="nin" value="' + esc(cat.rotuloAdicional||"Acompanha") + '" placeholder="Acompanha" oninput="M.categorias[' + ci + '].rotuloAdicional=this.value"></div>'
                : '<div class="row"><div class="nm" style="font-size:14px;color:var(--mut)">Quantas o cliente pode escolher</div>' +
                  '<input class="pin" type="number" min="1" value="' + (cat.max||1) + '" oninput="M.categorias[' + ci + '].max=parseInt(this.value)||1"></div>') +
              '<div class="row"><div class="nm" style="font-size:14px;color:var(--mut)">Obrigatório escolher?</div>' +
