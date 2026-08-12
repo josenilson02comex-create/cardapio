@@ -73,6 +73,7 @@ header.comfoto .tagline{text-shadow:0 2px 10px rgba(0,0,0,.9)}
 }
 .thumb.logo-t{width:88px;height:88px;border-radius:12px}
 input[type=file]{display:none}
+input.masked{-webkit-text-security:disc;text-security:disc;letter-spacing:1px}
 .upl{
   display:inline-flex;align-items:center;justify-content:center;gap:6px;background:#33333d;
   border-radius:8px;padding:9px 12px;font-size:12px;font-weight:800;cursor:pointer;color:#fff
@@ -1387,7 +1388,12 @@ function viewPub(){
     '<div class="field"><label>Usuário do GitHub</label><input type="text" value="' + esc(ADMIN.user) + '" oninput="ADMIN.user=this.value.trim()" placeholder="ex.: zerohorapnz"></div>' +
     '<div class="field"><label>Repositório</label><input type="text" value="' + esc(ADMIN.repo) + '" oninput="ADMIN.repo=this.value.trim()" placeholder="ex.: cardapio"></div>' +
     '<div class="field"><label>Branch</label><input type="text" value="' + esc(ADMIN.branch) + '" oninput="ADMIN.branch=this.value.trim()||\'main\'"></div>' +
-    '<div class="field"><label>Token de acesso</label><input type="password" value="' + esc(ADMIN.token) + '" oninput="ADMIN.token=this.value.trim()" placeholder="github_pat_..."></div>' +
+    '<div class="field"><label>Token de acesso</label>' +
+    '<div style="display:flex;gap:8px;align-items:center">' +
+    '<input type="text" id="tkIn" class="masked" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" ' +
+    'value="' + esc(ADMIN.token) + '" oninput="ADMIN.token=this.value.trim();dicaToken()" placeholder="github_pat_...">' +
+    '<button class="mini gray" id="tkOlho" onclick="verToken()" style="flex:0 0 auto">👁</button></div>' +
+    '<p class="hint" id="tkHint"></p></div>' +
     '<div class="grid2"><button class="mini" onclick="salvarAdmin()">Guardar neste aparelho</button>' +
     '<button class="mini gray" onclick="testar()">Testar conexão</button></div></div>' +
 
@@ -1397,6 +1403,29 @@ function viewPub(){
     '<div class="pcard"><h3>🆘 Sem internet no painel?</h3>' +
     '<p class="hint">Use o botão <b>⬇︎ JSON</b> para baixar o arquivo <code class="small">menu.json</code> e subir manualmente no seu repositório.</p></div>';
 }
+function checaToken(t){
+  t = (t||"").trim();
+  if(!t) return "Cole aqui o token que o GitHub mostrou.";
+  if(/\s/.test(t)) return "O token tem espaço no meio. Copie de novo usando o botão de copiar do GitHub.";
+  if(!/^(github_pat_|ghp_|gho_|ghu_|ghs_|ghr_)/.test(t))
+    return "Isso não parece um token do GitHub — ele começa com github_pat_ (ou ghp_). Atenção: o navegador pode ter preenchido sua senha salva aqui. Toque no 👁 para conferir.";
+  if(t.length < 36) return "O token está incompleto (" + t.length + " caracteres). Um token do GitHub tem 40 ou mais. Copie inteiro.";
+  return "";
+}
+function dicaToken(){
+  const el = document.getElementById("tkHint");
+  if(!el) return;
+  const erro = checaToken(ADMIN.token);
+  el.style.color = erro ? "#ff9ea3" : "#4ade80";
+  el.textContent = erro || ("Formato OK — " + ADMIN.token.trim().length + " caracteres.");
+}
+function verToken(){
+  const i = document.getElementById("tkIn");
+  if(!i) return;
+  i.classList.toggle("masked");
+  document.getElementById("tkOlho").textContent = i.classList.contains("masked") ? "👁" : "🙈";
+}
+
 function salvarAdmin(){ ls.set("zh_admin", JSON.stringify(ADMIN)); pmsg("ok","Guardado neste aparelho."); }
 function pmsg(tipo,txt){
   const el = document.getElementById("pubMsg");
@@ -1405,13 +1434,15 @@ function pmsg(tipo,txt){
 }
 async function testar(){
   if(!ADMIN.user || !ADMIN.repo || !ADMIN.token){ pmsg("err","Preencha usuário, repositório e token."); return; }
+  const errT = checaToken(ADMIN.token);
+  if(errT){ pmsg("err", errT); return; }
   pmsg("wait","Testando...");
   try{
     const r = await fetch("https://api.github.com/repos/" + ADMIN.user + "/" + ADMIN.repo,
       { headers:{ Authorization:"Bearer " + ADMIN.token, Accept:"application/vnd.github+json" } });
     if(r.ok) pmsg("ok","Conexão OK! Pode publicar.");
     else if(r.status===404) pmsg("err","Repositório não encontrado ou token sem permissão nele.");
-    else if(r.status===401) pmsg("err","Token inválido ou expirado.");
+    else if(r.status===401) pmsg("err","Token recusado pelo GitHub (401). Ele expirou, foi revogado ou está incompleto — gere um novo em github.com/settings/personal-access-tokens e cole inteiro.");
     else pmsg("err","Erro " + r.status + ".");
   }catch(e){ pmsg("err","Falha de rede: " + e.message); }
 }
