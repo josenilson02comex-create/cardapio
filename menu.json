@@ -22,8 +22,8 @@
       "nome": "Marmita M",
       "desc": "Porção individual",
       "precos": {
-        "1": 18,
-        "2": 21
+        "1": 17.4,
+        "2": 18.9
       },
       "ativo": true
     },
@@ -32,8 +32,8 @@
       "nome": "Marmita G",
       "desc": "Porção grande",
       "precos": {
-        "1": 22,
-        "2": 26
+        "1": 19.9,
+        "2": 21.9
       },
       "ativo": true
     }
@@ -47,6 +47,12 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
+          "on": false,
+          "extra": 0,
+          "tipo": "principal"
+        },
+        {
+          "n": "Feijão de caldo",
           "on": true,
           "extra": 0,
           "tipo": "principal"
@@ -62,7 +68,20 @@
           "on": true,
           "extra": 0,
           "tipo": "adicional",
-          "com": []
+          "com": [
+            "Feijão tropeiro",
+            "Feijão de caldo"
+          ]
+        },
+        {
+          "n": "Arroz temperado",
+          "on": false,
+          "extra": 0,
+          "tipo": "adicional",
+          "com": [
+            "Feijão tropeiro",
+            "Feijão de caldo"
+          ]
         },
         {
           "n": "Espaguete no molho artesanal",
@@ -71,6 +90,7 @@
           "tipo": "adicional",
           "com": [
             "Feijão tropeiro",
+            "Feijão de caldo",
             "Baião cremoso"
           ]
         }
@@ -86,27 +106,92 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Fricassê de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Costela bovina assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Carne moída refogada",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Fígado acebolado",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Carne de sol acebolada",
           "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Frango empanado",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Strogonoff de frango",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Panqueca de frango",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Panqueca de carne",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Costela suína assada",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Ovo frito",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Bisteca acebolada",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Toscana acebolada",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Linguiça assada",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Frango assado",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Bife em tiras acebolado",
+          "on": false,
           "extra": 0
         }
       ]
@@ -124,7 +209,7 @@
         },
         {
           "n": "Purê de batata",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -133,13 +218,48 @@
           "extra": 0
         },
         {
-          "n": "Salada",
+          "n": "Salada (tomate, alface)",
           "on": true,
           "extra": 0
         },
         {
           "n": "Batata frita",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Purê de macaxira",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Batata rustica",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Batata doce",
           "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Macaxeira assada",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Refogado de abobora",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
+          "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Vinagrete",
+          "on": false,
           "extra": 0
         }
       ]
@@ -170,10 +290,25 @@
       "n": "Coca-Cola 1L",
       "preco": 11,
       "on": true
+    },
+    {
+      "n": "Coca-Cola Zero 350ml",
+      "preco": 6,
+      "on": true
+    },
+    {
+      "n": "Guaraná Zero 350ml",
+      "preco": 6,
+      "on": true
+    },
+    {
+      "n": "Coca-Cola Zero 1L",
+      "preco": 11,
+      "on": true
     }
   ],
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-12T22:44:58.360Z"
+  "atualizadoEm": "2026-08-12T23:57:31.843Z"
 }
