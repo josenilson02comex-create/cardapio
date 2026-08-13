@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -299,7 +299,7 @@
     {
       "n": "Guaraná Zero 350ml",
       "preco": 6,
-      "on": true
+      "on": false
     },
     {
       "n": "Coca-Cola Zero 1L",
@@ -310,5 +310,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-13T00:14:14.457Z"
+  "atualizadoEm": "2026-08-13T15:46:30.776Z"
 }
