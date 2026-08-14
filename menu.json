@@ -195,7 +195,7 @@
           "extra": 0
         },
         {
-          "n": "Opção selecionada em dobro",
+          "n": "Opção selecionada acima em dobro",
           "on": true,
           "extra": 0
         }
@@ -315,5 +315,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-14T13:50:01.181Z"
+  "atualizadoEm": "2026-08-14T13:50:51.425Z"
 }
