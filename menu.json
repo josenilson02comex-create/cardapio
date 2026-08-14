@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -116,12 +116,12 @@
         },
         {
           "n": "Costela bovina assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -161,12 +161,12 @@
         },
         {
           "n": "Costela suína assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Ovo frito",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -191,7 +191,7 @@
         },
         {
           "n": "Bife em tiras acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         }
       ]
@@ -204,7 +204,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -224,22 +224,22 @@
         },
         {
           "n": "Batata frita",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Purê de macaxira",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata rustica",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata doce",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -249,7 +249,7 @@
         },
         {
           "n": "Refogado de abobora",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -310,5 +310,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-13T15:46:30.776Z"
+  "atualizadoEm": "2026-08-14T01:57:55.950Z"
 }
