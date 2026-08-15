@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -121,12 +121,12 @@
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Carne moída refogada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -136,12 +136,12 @@
         },
         {
           "n": "Carne de sol acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Frango empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -166,7 +166,7 @@
         },
         {
           "n": "Ovo frito",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -224,7 +224,7 @@
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -239,17 +239,17 @@
         },
         {
           "n": "Batata rustica",
-          "on": true,
-          "extra": 0
-        },
-        {
-          "n": "Batata doce",
           "on": false,
           "extra": 0
         },
         {
-          "n": "Macaxeira assada",
+          "n": "Batata doce",
           "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Macaxeira assada",
+          "on": false,
           "extra": 0
         },
         {
@@ -259,7 +259,7 @@
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -310,10 +310,15 @@
       "n": "Coca-Cola Zero 1L",
       "preco": 11,
       "on": true
+    },
+    {
+      "n": "Cajuína São Geraldo 1l",
+      "preco": 11,
+      "on": true
     }
   ],
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-14T14:58:13.593Z"
+  "atualizadoEm": "2026-08-15T12:11:01.144Z"
 }
