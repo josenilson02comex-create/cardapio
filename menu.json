@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -116,7 +116,7 @@
         },
         {
           "n": "Costela bovina assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -146,7 +146,7 @@
         },
         {
           "n": "Strogonoff de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           "n": "Costela suína assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -224,17 +224,17 @@
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata frita",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Purê de macaxira",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -259,7 +259,7 @@
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -320,5 +320,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-19T15:55:14.222Z"
+  "atualizadoEm": "2026-08-20T01:50:05.791Z"
 }
