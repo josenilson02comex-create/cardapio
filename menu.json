@@ -266,6 +266,11 @@
           "n": "Vinagrete",
           "on": false,
           "extra": 0
+        },
+        {
+          "n": "Batata palha",
+          "on": true,
+          "extra": 0
         }
       ]
     }
@@ -320,5 +325,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-20T01:50:05.791Z"
+  "atualizadoEm": "2026-08-20T01:50:55.023Z"
 }
