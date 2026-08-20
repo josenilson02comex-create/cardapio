@@ -201,7 +201,7 @@
         },
         {
           "n": "Escondidinho de carne",
-          "on": true,
+          "on": false,
           "extra": 0
         }
       ]
@@ -309,7 +309,7 @@
     {
       "n": "Coca-Cola Zero 350ml",
       "preco": 6,
-      "on": false
+      "on": true
     },
     {
       "n": "Guaraná Zero 350ml",
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-20T01:51:26.087Z"
+  "atualizadoEm": "2026-08-20T01:53:33.316Z"
 }
