@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,12 +106,12 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Fricassê de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -121,17 +121,17 @@
         },
         {
           "n": "Frango grelhado",
-          "on": false,
-          "extra": 0
-        },
-        {
-          "n": "Carne moída refogada",
           "on": true,
           "extra": 0
         },
         {
-          "n": "Fígado acebolado",
+          "n": "Carne moída refogada",
           "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Fígado acebolado",
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           "n": "Costela suína assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -171,7 +171,7 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -181,7 +181,7 @@
         },
         {
           "n": "Linguiça assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -239,7 +239,7 @@
         },
         {
           "n": "Purê de macaxira",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-21T01:13:59.565Z"
+  "atualizadoEm": "2026-08-22T04:07:05.944Z"
 }
