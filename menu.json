@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,17 +106,17 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Fricassê de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Costela bovina assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           "n": "Costela suína assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -214,7 +214,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -234,7 +234,7 @@
         },
         {
           "n": "Batata frita",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -244,12 +244,12 @@
         },
         {
           "n": "Batata rustica",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata doce",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -259,7 +259,7 @@
         },
         {
           "n": "Refogado de abobora",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-22T17:11:45.069Z"
+  "atualizadoEm": "2026-08-23T23:11:11.374Z"
 }
