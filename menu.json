@@ -47,7 +47,7 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -85,7 +85,7 @@
         },
         {
           "n": "Espaguete no molho artesanal",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "adicional",
           "com": [
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           "n": "Costela suína assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -171,12 +171,12 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Toscana acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -186,7 +186,7 @@
         },
         {
           "n": "Frango assado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -214,12 +214,12 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Purê de batata",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -229,7 +229,7 @@
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -249,12 +249,12 @@
         },
         {
           "n": "Batata doce",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Macaxeira assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -264,7 +264,7 @@
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-25T17:06:17.397Z"
+  "atualizadoEm": "2026-08-25T23:56:15.943Z"
 }
