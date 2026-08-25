@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,12 +106,12 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Fricassê de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -171,12 +171,12 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-23T23:11:11.374Z"
+  "atualizadoEm": "2026-08-25T01:20:01.109Z"
 }
