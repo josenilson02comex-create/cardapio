@@ -53,7 +53,7 @@
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -166,7 +166,7 @@
         },
         {
           "n": "Ovo frito",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -186,7 +186,7 @@
         },
         {
           "n": "Frango assado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-26T14:05:56.034Z"
+  "atualizadoEm": "2026-08-26T14:55:20.095Z"
 }
