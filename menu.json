@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -116,17 +116,17 @@
         },
         {
           "n": "Costela bovina assada",
-          "on": true,
-          "extra": 0
-        },
-        {
-          "n": "Frango grelhado",
           "on": false,
           "extra": 0
         },
         {
-          "n": "Carne moída refogada",
+          "n": "Frango grelhado",
           "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Carne moída refogada",
+          "on": false,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -171,7 +171,7 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -181,7 +181,7 @@
         },
         {
           "n": "Linguiça assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -219,7 +219,7 @@
         },
         {
           "n": "Purê de batata",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -229,7 +229,7 @@
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -244,12 +244,12 @@
         },
         {
           "n": "Batata rustica",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata doce",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-27T16:34:45.297Z"
+  "atualizadoEm": "2026-08-28T01:40:46.326Z"
 }
