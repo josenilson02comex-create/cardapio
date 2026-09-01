@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -85,7 +85,7 @@
         },
         {
           "n": "Espaguete no molho artesanal",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "adicional",
           "com": [
@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -131,17 +131,17 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Carne de sol acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Frango empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -161,12 +161,12 @@
         },
         {
           "n": "Costela suína assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Ovo frito",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -229,7 +229,7 @@
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -264,7 +264,7 @@
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-08-31T01:23:02.866Z"
+  "atualizadoEm": "2026-09-01T03:15:48.237Z"
 }
