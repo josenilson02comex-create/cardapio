@@ -244,7 +244,7 @@
         },
         {
           "n": "Batata rustica",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -330,5 +330,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-01T03:15:48.237Z"
+  "atualizadoEm": "2026-09-01T14:40:51.784Z"
 }
