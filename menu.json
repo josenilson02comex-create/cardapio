@@ -234,7 +234,7 @@
         },
         {
           "n": "Batata frita",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -249,7 +249,7 @@
         },
         {
           "n": "Batata doce",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -335,5 +335,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-02T01:46:24.918Z"
+  "atualizadoEm": "2026-09-02T09:44:33.683Z"
 }
