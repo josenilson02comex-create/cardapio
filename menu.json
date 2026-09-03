@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -136,17 +136,17 @@
         },
         {
           "n": "Carne de sol acebolada",
-          "on": false,
-          "extra": 0
-        },
-        {
-          "n": "Frango empanado",
           "on": true,
           "extra": 0
         },
         {
-          "n": "Strogonoff de frango",
+          "n": "Frango empanado",
           "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Strogonoff de frango",
+          "on": true,
           "extra": 0
         },
         {
@@ -161,27 +161,27 @@
         },
         {
           "n": "Costela suína assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Ovo frito",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Bisteca acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Linguiça assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -214,7 +214,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -234,7 +234,7 @@
         },
         {
           "n": "Batata frita",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -244,7 +244,7 @@
         },
         {
           "n": "Batata rustica",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -254,7 +254,7 @@
         },
         {
           "n": "Macaxeira assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -274,12 +274,12 @@
         },
         {
           "n": "Batata palha",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Brócolis",
-          "on": true,
+          "on": false,
           "extra": 0
         }
       ]
@@ -340,5 +340,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-03T02:16:08.232Z"
+  "atualizadoEm": "2026-09-03T22:34:34.120Z"
 }
