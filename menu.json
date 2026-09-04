@@ -161,7 +161,7 @@
         },
         {
           "n": "Costela suína assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -340,5 +340,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-03T22:34:42.845Z"
+  "atualizadoEm": "2026-09-04T16:12:59.262Z"
 }
