@@ -224,7 +224,7 @@
         },
         {
           "n": "Farofa",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -340,5 +340,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-05T03:36:12.516Z"
+  "atualizadoEm": "2026-09-05T16:19:18.301Z"
 }
