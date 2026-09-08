@@ -111,7 +111,7 @@
         },
         {
           "n": "Fricassê de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -219,12 +219,12 @@
         },
         {
           "n": "Purê de batata",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Farofa",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -234,7 +234,7 @@
         },
         {
           "n": "Batata frita",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -254,12 +254,12 @@
         },
         {
           "n": "Macaxeira assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Refogado de abobora",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -274,7 +274,7 @@
         },
         {
           "n": "Batata palha",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -340,5 +340,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-05T16:34:29.177Z"
+  "atualizadoEm": "2026-09-08T13:38:17.950Z"
 }
