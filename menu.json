@@ -264,7 +264,7 @@
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -340,5 +340,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-11T01:20:05.309Z"
+  "atualizadoEm": "2026-09-11T16:56:57.421Z"
 }
