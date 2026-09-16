@@ -195,12 +195,17 @@
           "extra": 0
         },
         {
-          "n": "Opção selecionada acima em dobro",
+          "n": "Escondidinho de carne",
           "on": true,
           "extra": 0
         },
         {
-          "n": "Escondidinho de carne",
+          "n": "Peixe empanado",
+          "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Opção selecionada acima em dobro",
           "on": true,
           "extra": 0
         }
@@ -340,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-15T02:13:08.295Z"
+  "atualizadoEm": "2026-09-16T00:34:07.393Z"
 }
