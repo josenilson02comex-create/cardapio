@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -116,12 +116,12 @@
         },
         {
           "n": "Costela bovina assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,12 +141,12 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Strogonoff de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           "n": "Costela suína assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -219,7 +219,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -229,17 +229,17 @@
         },
         {
           "n": "Farofa",
-          "on": true,
-          "extra": 0
-        },
-        {
-          "n": "Salada (tomate, alface)",
           "on": false,
           "extra": 0
         },
         {
-          "n": "Batata frita",
+          "n": "Salada (tomate, alface)",
           "on": true,
+          "extra": 0
+        },
+        {
+          "n": "Batata frita",
+          "on": false,
           "extra": 0
         },
         {
@@ -264,12 +264,12 @@
         },
         {
           "n": "Refogado de abobora",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -279,7 +279,7 @@
         },
         {
           "n": "Batata palha",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-17T15:59:21.037Z"
+  "atualizadoEm": "2026-09-18T01:03:41.196Z"
 }
