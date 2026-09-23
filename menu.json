@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -116,12 +116,12 @@
         },
         {
           "n": "Costela bovina assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -171,17 +171,17 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": false,
-          "extra": 0
-        },
-        {
-          "n": "Toscana acebolada",
           "on": true,
           "extra": 0
         },
         {
-          "n": "Linguiça assada",
+          "n": "Toscana acebolada",
           "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Linguiça assada",
+          "on": true,
           "extra": 0
         },
         {
@@ -219,7 +219,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -229,17 +229,17 @@
         },
         {
           "n": "Farofa",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata frita",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -254,17 +254,17 @@
         },
         {
           "n": "Batata doce",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Macaxeira assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Refogado de abobora",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -274,7 +274,7 @@
         },
         {
           "n": "Vinagrete",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-22T13:17:52.687Z"
+  "atualizadoEm": "2026-09-23T01:53:18.181Z"
 }
