@@ -334,16 +334,16 @@
     {
       "n": "Cajuína São Geraldo 1L",
       "preco": 11,
-      "on": true
+      "on": false
     },
     {
       "n": "Cajuína São Geraldo Zero 350ml",
       "preco": 6,
-      "on": false
+      "on": true
     }
   ],
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-26T16:30:57.334Z"
+  "atualizadoEm": "2026-09-26T16:33:49.290Z"
 }
