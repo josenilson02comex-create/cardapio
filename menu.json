@@ -4,7 +4,7 @@
     "sub": "PNZ",
     "whatsapp": "5587981500788",
     "instagram": "zerohora.pnz",
-    "aberto": false,
+    "aberto": true,
     "aviso": "",
     "avisoFechado": "Estamos fechados no momento. Volte no nosso horário de funcionamento!",
     "taxaEntrega": 0,
@@ -116,22 +116,22 @@
         },
         {
           "n": "Costela bovina assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Carne moída refogada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Fígado acebolado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -141,12 +141,12 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Strogonoff de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -166,7 +166,7 @@
         },
         {
           "n": "Ovo frito",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -219,7 +219,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -234,12 +234,12 @@
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata frita",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -249,22 +249,22 @@
         },
         {
           "n": "Batata rustica",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Batata doce",
-          "on": false,
-          "extra": 0
-        },
-        {
-          "n": "Macaxeira assada",
           "on": true,
           "extra": 0
         },
         {
-          "n": "Refogado de abobora",
+          "n": "Macaxeira assada",
           "on": false,
+          "extra": 0
+        },
+        {
+          "n": "Refogado de abobora",
+          "on": true,
           "extra": 0
         },
         {
@@ -279,7 +279,7 @@
         },
         {
           "n": "Batata palha",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -334,7 +334,7 @@
     {
       "n": "Cajuína São Geraldo 1L",
       "preco": 11,
-      "on": false
+      "on": true
     },
     {
       "n": "Cajuína São Geraldo Zero 350ml",
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-09-26T18:17:26.477Z"
+  "atualizadoEm": "2026-09-28T01:10:20.528Z"
 }
