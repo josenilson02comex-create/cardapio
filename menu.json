@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-01T14:37:08.417Z"
+  "atualizadoEm": "2026-10-01T15:20:54.289Z"
 }
