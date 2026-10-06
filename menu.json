@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -166,7 +166,7 @@
         },
         {
           "n": "Ovo frito",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -176,12 +176,12 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Linguiça assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -224,17 +224,17 @@
         },
         {
           "n": "Purê de batata",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Farofa",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -254,22 +254,22 @@
         },
         {
           "n": "Batata doce",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Macaxeira assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Refogado de abobora",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -319,7 +319,7 @@
     {
       "n": "Coca-Cola Zero 350ml",
       "preco": 6,
-      "on": false
+      "on": true
     },
     {
       "n": "Guaraná Zero 350ml",
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-05T17:02:07.578Z"
+  "atualizadoEm": "2026-10-06T01:36:57.644Z"
 }
