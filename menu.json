@@ -224,7 +224,7 @@
         },
         {
           "n": "Purê de batata",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-07T15:36:22.159Z"
+  "atualizadoEm": "2026-10-07T16:05:54.817Z"
 }
