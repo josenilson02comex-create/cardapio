@@ -23,7 +23,7 @@
       "desc": "Porção individual",
       "precos": {
         "1": 18.9,
-        "2": 20.4
+        "2": 20.5
       },
       "ativo": true
     },
@@ -32,8 +32,8 @@
       "nome": "Marmita G",
       "desc": "Porção grande",
       "precos": {
-        "1": 21.4,
-        "2": 23.4
+        "1": 21.5,
+        "2": 23.5
       },
       "ativo": true
     }
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-22T15:09:37.959Z"
+  "atualizadoEm": "2026-10-22T15:46:38.050Z"
 }
