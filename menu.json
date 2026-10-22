@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -121,12 +121,12 @@
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Carne moída refogada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -141,12 +141,12 @@
         },
         {
           "n": "Frango empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Strogonoff de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -191,7 +191,7 @@
         },
         {
           "n": "Bife em tiras acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -219,7 +219,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -229,12 +229,12 @@
         },
         {
           "n": "Farofa",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -249,7 +249,7 @@
         },
         {
           "n": "Batata rustica",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -269,7 +269,7 @@
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -279,7 +279,7 @@
         },
         {
           "n": "Batata palha",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -345,5 +345,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-21T15:21:05.173Z"
+  "atualizadoEm": "2026-10-22T01:31:04.917Z"
 }
