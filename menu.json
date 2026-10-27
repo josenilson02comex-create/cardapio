@@ -4,7 +4,7 @@
     "sub": "PNZ",
     "whatsapp": "5587981500788",
     "instagram": "zerohora.pnz",
-    "aberto": false,
+    "aberto": true,
     "aviso": "",
     "avisoFechado": "Estamos fechados no momento. Volte no nosso horário de funcionamento!",
     "taxaEntrega": 0,
@@ -312,11 +312,6 @@
       "on": true
     },
     {
-      "n": "Coca-Cola 1L",
-      "preco": 11,
-      "on": true
-    },
-    {
       "n": "Coca-Cola Zero 350ml",
       "preco": 6,
       "on": true
@@ -327,23 +322,28 @@
       "on": true
     },
     {
+      "n": "Cajuína São Geraldo Zero 350ml",
+      "preco": 6,
+      "on": true
+    },
+    {
+      "n": "Coca-cola 1L",
+      "preco": 11,
+      "on": true
+    },
+    {
       "n": "Coca-Cola Zero 1L",
       "preco": 11,
       "on": true
     },
     {
-      "n": "Cajuína São Geraldo 1L",
+      "n": "Guaraná São Geraldo 1L",
       "preco": 11,
-      "on": true
-    },
-    {
-      "n": "Cajuína São Geraldo Zero 350ml",
-      "preco": 6,
       "on": true
     }
   ],
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-26T18:08:43.738Z"
+  "atualizadoEm": "2026-10-27T01:04:46.497Z"
 }
