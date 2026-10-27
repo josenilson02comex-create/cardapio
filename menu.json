@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,12 +176,12 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Linguiça assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -224,7 +224,7 @@
         },
         {
           "n": "Purê de batata",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -249,12 +249,12 @@
         },
         {
           "n": "Batata rustica",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Batata doce",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -264,7 +264,7 @@
         },
         {
           "n": "Refogado de abobora",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -288,7 +288,7 @@
           "extra": 0
         },
         {
-          "n": "Mix De Amor folhas ( Rúcula, Couve folha e Alface)",
+          "n": "Mix de folhas ( Rúcula, Couve folha e Alface)",
           "on": true,
           "extra": 0
         }
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-27T01:06:49.249Z"
+  "atualizadoEm": "2026-10-27T01:09:10.063Z"
 }
