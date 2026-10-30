@@ -4,7 +4,7 @@
     "sub": "PNZ",
     "whatsapp": "5587981500788",
     "instagram": "zerohora.pnz",
-    "aberto": false,
+    "aberto": true,
     "aviso": "",
     "avisoFechado": "Estamos fechados no momento. Volte no nosso horário de funcionamento!",
     "taxaEntrega": 0,
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-30T01:15:51.432Z"
+  "atualizadoEm": "2026-10-30T13:30:16.470Z"
 }
