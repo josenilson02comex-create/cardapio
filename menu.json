@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -156,7 +156,7 @@
         },
         {
           "n": "Panqueca de carne",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -171,7 +171,7 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -191,7 +191,7 @@
         },
         {
           "n": "Bife em tiras acebolado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -219,7 +219,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -234,12 +234,12 @@
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Batata frita",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -254,7 +254,7 @@
         },
         {
           "n": "Batata doce",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -264,12 +264,12 @@
         },
         {
           "n": "Refogado de abobora",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Mix de salada (repolho, alface, cenoura, pepino, passas)",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-10-29T17:42:38.405Z"
+  "atualizadoEm": "2026-10-30T01:15:51.432Z"
 }
