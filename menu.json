@@ -299,7 +299,7 @@
     {
       "n": "Coca-Cola 350ml",
       "preco": 6,
-      "on": true
+      "on": false
     },
     {
       "n": "Guaraná Antártica 350ml",
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-11-03T11:07:29.307Z"
+  "atualizadoEm": "2026-11-03T13:07:16.844Z"
 }
