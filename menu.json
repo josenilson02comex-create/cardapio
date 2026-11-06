@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -146,7 +146,7 @@
         },
         {
           "n": "Strogonoff de frango",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -171,17 +171,17 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Linguiça assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -201,7 +201,7 @@
         },
         {
           "n": "Peixe empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -239,7 +239,7 @@
         },
         {
           "n": "Batata frita",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -254,12 +254,12 @@
         },
         {
           "n": "Batata doce",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Macaxeira assada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -279,7 +279,7 @@
         },
         {
           "n": "Batata palha",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-11-05T17:01:57.233Z"
+  "atualizadoEm": "2026-11-06T02:47:52.508Z"
 }
