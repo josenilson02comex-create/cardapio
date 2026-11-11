@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -171,7 +171,7 @@
         },
         {
           "n": "Bisteca acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-11-11T12:36:15.797Z"
+  "atualizadoEm": "2026-11-11T13:35:22.495Z"
 }
