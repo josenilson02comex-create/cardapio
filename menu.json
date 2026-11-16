@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -116,7 +116,7 @@
         },
         {
           "n": "Costela bovina assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -126,12 +126,12 @@
         },
         {
           "n": "Carne moída refogada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Fígado acebolado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -224,7 +224,7 @@
         },
         {
           "n": "Purê de batata",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -239,7 +239,7 @@
         },
         {
           "n": "Batata frita",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -254,7 +254,7 @@
         },
         {
           "n": "Batata doce",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-11-13T16:58:08.789Z"
+  "atualizadoEm": "2026-11-16T03:04:47.918Z"
 }
