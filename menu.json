@@ -47,13 +47,13 @@
       "itens": [
         {
           "n": "Feijão tropeiro",
-          "on": false,
+          "on": true,
           "extra": 0,
           "tipo": "principal"
         },
         {
           "n": "Feijão de caldo",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "principal"
         },
@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -121,12 +121,12 @@
         },
         {
           "n": "Frango grelhado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Carne moída refogada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "n": "Panqueca de frango",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -176,12 +176,12 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
           "n": "Linguiça assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -201,7 +201,7 @@
         },
         {
           "n": "Peixe empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -229,12 +229,12 @@
         },
         {
           "n": "Farofa",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
           "n": "Salada (tomate, alface)",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -249,7 +249,7 @@
         },
         {
           "n": "Batata rustica",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -259,7 +259,7 @@
         },
         {
           "n": "Macaxeira assada",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-11-19T17:32:08.986Z"
+  "atualizadoEm": "2026-11-20T02:47:21.264Z"
 }
