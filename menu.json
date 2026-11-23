@@ -4,7 +4,7 @@
     "sub": "PNZ",
     "whatsapp": "5587981500788",
     "instagram": "zerohora.pnz",
-    "aberto": false,
+    "aberto": true,
     "aviso": "",
     "avisoFechado": "Estamos fechados no momento. Volte no nosso horário de funcionamento!",
     "taxaEntrega": 0,
@@ -106,7 +106,7 @@
       "itens": [
         {
           "n": "Carne de panela",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "n": "Frango grelhado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -131,7 +131,7 @@
         },
         {
           "n": "Fígado acebolado",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "n": "Frango empanado",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -166,7 +166,7 @@
         },
         {
           "n": "Ovo frito",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "n": "Toscana acebolada",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -219,7 +219,7 @@
       "itens": [
         {
           "n": "Salada de maionese",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -239,7 +239,7 @@
         },
         {
           "n": "Batata frita",
-          "on": true,
+          "on": false,
           "extra": 0
         },
         {
@@ -249,7 +249,7 @@
         },
         {
           "n": "Batata rustica",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -264,7 +264,7 @@
         },
         {
           "n": "Refogado de abobora",
-          "on": false,
+          "on": true,
           "extra": 0
         },
         {
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-11-20T18:01:59.234Z"
+  "atualizadoEm": "2026-11-23T01:03:39.441Z"
 }
