@@ -65,7 +65,7 @@
         },
         {
           "n": "Arroz branco",
-          "on": true,
+          "on": false,
           "extra": 0,
           "tipo": "adicional",
           "com": [
@@ -350,5 +350,5 @@
   "admin": {
     "senhaHash": "484da598c15bf6413d057a9894c1539380c2c797617e83373ee0450a8be1acc1"
   },
-  "atualizadoEm": "2026-11-24T15:55:04.985Z"
+  "atualizadoEm": "2026-11-24T16:29:24.978Z"
 }
